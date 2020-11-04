@@ -37,6 +37,7 @@ def get_binary():
     # function should read the entry widget and generate an integer
     # this integer will be used as an input parameter for decimal to binary and the result updated
     # in the 8 checkboxes
+
     binary = binary_to_decimal(decimal)
 
 
