@@ -1,13 +1,13 @@
 #! python3
 
-import assignment
+import task1
 
 def test1():
-  assert assignment.function() == expected output
+  test = task1.binary_to_decimal( (0,0,0,1,1,0,0,1) )
+  assert test == 25
 
 def test2():
-  assert "needle" in assignment.function()
-  assert "needle2" in assignment.function(),"error Message"
+  test = task1.decimal_to_binary( 50 )
+  assert test == (0,0,1,1,0,0,1,0)
 
-def test3():
-  assert assignment.function() == expected output
+

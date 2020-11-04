@@ -12,6 +12,8 @@ has been started in task1.py
 This is an incomplete program.  You will need to add onto it, 
 but you should not change any of the commands that are already 
 here
+
+Use assignment_test.py to test your functions
 """
 
 
